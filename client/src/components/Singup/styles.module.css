@@ -1,0 +1,95 @@
+
+  
+  /* Container styles */
+  .signup_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+  }
+  
+  .signup_form_container {
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	display: flex;
+	overflow: hidden;
+	width: 80%;
+	max-width: 800px;
+  }
+  
+  /* Left and Right sections */
+  .left {
+	flex: 1;
+	padding: 20px;
+	text-align: center;
+	background-color: #49c712;
+	color: #fff;
+  }
+  
+  .left h1 {
+	font-size: 36px;
+	margin-top: 20px;
+  }
+  
+  .right {
+	flex: 2;
+	padding: 20px;
+  }
+  
+  /* Form styles */
+  .form_container {
+	max-width: 400px;
+	margin: 0 auto;
+  }
+  
+  .input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+  }
+  
+ /* Button styles */
+.white_btn,
+.green_btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.white_btn {
+  background-color: #ffffff;
+  color: #0099cc;
+  border: 1px solid #0099cc;
+}
+
+.green_btn {
+  background-color: #00cc66;
+  color: #fff;
+  border: none;
+}
+
+.white_btn:hover,
+.green_btn:hover {
+  background-color: #0099cc;
+  color: #fff;
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+  /* Error and success messages */
+  .error_msg {
+	color: #ff0000;
+	margin-top: 10px;
+  }
+  
+  .success_msg {
+	color: #00cc66;
+	margin-top: 10px;
+  }
+  
